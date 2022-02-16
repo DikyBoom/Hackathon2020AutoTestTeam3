@@ -14,22 +14,14 @@ namespace Debugle.Tests
         By _userPasswordLocator = By.Id("id-p");
         By _loginButtonLocator = By.XPath(".//*[@type='submit']");
         By _errorMessageDivLocator = By.ClassName("form__error form__error_fail");
-
         public LoginPage(IWebDriver driver)
         {
             _driver = driver;
        }
-
         public void TypeUserLogin(string userLogin)
         {
             Thread.Sleep(1000);
-            _driver.FindElement(_userLoginLocator).SendKeys(userLogin);
-
-        }
-
-        public void TypeUserPassword(string userPassword)
-        {
-            _driver.FindElement(_userPasswordLocator).SendKeys(userPassword);
+driver.FindElement(_userPasswordLocator).SendKeys(userPassword);
         }
 
         public void ClickLoginButton()

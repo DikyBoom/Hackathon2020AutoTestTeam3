@@ -13,7 +13,6 @@ namespace Debugle.Tests
         private IWebDriver _driver;
         By _clicCreatMail = By.XPath("//button[@class='default compose']");
         By _clicAdress = By.XPath("//div[@class='sendmsg__form-label-field auto cropped ui-sortable']");
-        //By _clicTopic = By.XPath("//input[@class = 'input']");
         By _clicBodyMail = By.XPath("//body[@id='tinymce']']");
         By _clicButtonSend = By.XPath("//button[@class='default send']");
         By _clicButtonPodtverjdenie = By.XPath("//*[text()='Все равно отправить']");

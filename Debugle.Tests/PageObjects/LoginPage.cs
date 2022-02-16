@@ -41,18 +41,6 @@ namespace Debugle.Tests
         {
             return _driver.FindElement(_errorMessageDivLocator).Text;
         }
-
-        ////public string GiveEmailFieldValidationMesssageText()
-        ////{
-        ////    return _driver.FindElement(_userLoginLocator).GetAttribute("validationMessage");
-        ////}
-
-        ////public string GivePasswordFieldValidationMesssageText()
-        ////{
-        ////    return _driver.FindElement(_userPasswordLocator).GetAttribute("validationMessage");
-        ////}
-        
-
     }
 
 }
